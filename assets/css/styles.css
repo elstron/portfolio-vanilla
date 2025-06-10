@@ -45,7 +45,10 @@ p {
 h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
 }
-
+:where(h1) {
+  margin-block: 0.67em;
+  font-size: 2em;
+}
 *, *::before, *::after {
   box-sizing: border-box;
 }
