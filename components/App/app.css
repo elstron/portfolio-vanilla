@@ -1,0 +1,12 @@
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #0331ff;
+}
+
+::slotted(p) {
+  font-size: 1rem;
+  color: #0db19e;
+  margin-bottom: 1rem;
+}
